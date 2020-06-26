@@ -1,0 +1,12 @@
+# Connection Details
+# (For a more robust purpose, these should be passed as secrets. For instance,
+# using Azure's Key Vault:
+# https://docs.microsoft.com/en-us/azure/key-vault/general/developers-guide
+# )
+
+[training]
+user = "ds"
+password = "dlimi"
+host="dlitraining.westeurope.azurecontainer.io"
+port=3306
+database="classicmodels"
